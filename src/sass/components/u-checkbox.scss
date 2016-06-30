@@ -1,0 +1,12 @@
+/*模拟复选框&单选框组件*/
+.u-checkbox{
+  .ico{ display: inline-block; width:60px; height:24px; line-height: 24px; border: 1px solid #ccc; border-radius: 12px; transition: background ease-out .2s;}
+
+  .ico i{ display: block; width: 22px; height: 22px; margin: 1px; border-radius: 12px; background: #ddd; transition: all ease-out .1s;}
+
+  input{ display: none;}
+
+  input:checked ~ .ico{ border-color: #f60; background:#f60;}
+
+  input:checked ~ .ico i{ background: #fff; transform: translate3d(36px,0,0)}
+}

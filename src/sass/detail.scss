@@ -1,0 +1,10 @@
+
+.m-detail{
+  background: #f60; height: 40px; line-height: 40px;
+
+  li { float: left; list-style: none;}
+
+  .cur{ background: red;}
+
+  a{ display: block; padding:0 10px; font-size:14px; color: #fff; border-radius: 6px;}
+}

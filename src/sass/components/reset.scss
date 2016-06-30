@@ -1,0 +1,14 @@
+/*reset*/
+body,div,table,tr,td,th,h1,h2,h3,h4,h5,h6,form,input,select,textarea,p,ul,ol,li,dl,dd,dt,img{ margin:0; padding:0;}
+img{ border:0 none; vertical-align:middle; max-width: 100%;}
+li{ list-style:none;}
+a,a:hover{ text-decoration:none;}
+h1,h2,h3,h4,h5,h6{ font-size:100%; font-weight: normal;}
+em,i,dfn{ font-style:normal;}
+table{ border-collapse:collapse; border-spacing:0;}
+a, input, select, textarea, button, area{ outline:none; font-family:inherit; font-size: inherit; color:inherit;}
+textarea{ overflow:auto; resize:none;}
+input[type="button"], input[type="submit"], input[type="reset"], button{ cursor:pointer;} /*FF*/
+
+html,body{ width: 100%; min-height: 100%;}
+body{ font:12px/1 'Microsoft YaHei', sans-serif; text-align:center; color: #000;}

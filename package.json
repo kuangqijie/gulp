@@ -1,0 +1,22 @@
+{
+  "name": "build_package",
+  "description": "this is a demo",
+  "repository": "",
+  "version": "0.1.0",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rev": "^7.0.0",
+    "gulp-rev-collector": "^1.0.4",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^1.5.4",
+    "gulp-watch": "^4.3.8",
+    "gulp.spritesmith": "^6.2.1",
+    "node-sass": "^3.8.0",
+    "webpack": "^1.13.0"
+  },
+  "scripts": {
+    "build": "webpack -p --progress --config webpack.config2.js",
+    "test": "webpack --config webpack.config2.js --progress",
+    "test3": "webpack --config webpack.config3.js --progress"
+  }
+}

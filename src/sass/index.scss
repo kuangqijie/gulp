@@ -1,0 +1,13 @@
+@import "components/f-fn";
+@import "components/u-button";
+@import "components/u-checkbox";
+
+.m-nav{ height: 50px; background:#f60; }
+
+.u-img{ width: 200px; height: 200px; border: 1px solid #000; background: url("../images/1.jpg") no-repeat;}
+
+.m-wrap{
+  .u-ico{ background-image: url("../images/sprite.png");}
+
+  @import "components/sprite";
+}

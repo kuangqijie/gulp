@@ -1,0 +1,7 @@
+.m-detail { background: #f60; height: 40px; line-height: 40px; }
+
+.m-detail li { float: left; list-style: none; }
+
+.m-detail .cur { background: red; }
+
+.m-detail a { display: block; padding: 0 10px; font-size: 14px; color: #fff; border-radius: 6px; }
